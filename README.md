@@ -11,6 +11,12 @@ export WEAVIATE_PORT=8080
 export WEAVIATE_INDEX=CustomDocument
 ```
 
+## Tips & Lessons
+
+- The vector database schema is fully customizable and can be adapted to your needs
+- Different embedding models yield different performances on semantic search (I chose the best performing model for semantic search according to HuggingFace but your mileage may vary)
+- The cloud deployment of Weaviate may work better than the local deploy (ran into some errors that were harder to debug than making the switch to the cloud version)
+
 ## Contributors & License
 
 - [OpenAI](https://github.com/openai)
